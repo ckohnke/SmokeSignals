@@ -49,7 +49,7 @@ def checkInbox():
                     #print "Coded message"
                     if len(coded) < 140:
                         postToTwitter(coded)
-                        returnText(n, "Posted to Twitter")
+                        returnText(n, "Posted to Twitter: "+coded)
                     else:
                         returnText(n, "Coded message too long")
                 elif e.equalsIgnoreCase("decode"):
