@@ -11,8 +11,8 @@ where ACTION is either encode (to encrypt a message and post to Twitter) or deco
 In all cases, the program will text the user back with the success or failure of the program.
 
 Dependencies:
-  - python googlevoice api. This api had to be modified to get it to play nice with Jython. 
-  - no-swag toolkit: personal java toolkit that includes wrapping classes for encryption and decryption.
-  - twitter4j: Twitter api used for posting to Twitter
+  - python googlevoice API.
+  - no-swag toolkit: personal Java toolkit that includes wrapping classes for encryption and decryption.
+  - twitter4j: Twitter API used for posting to Twitter.
 
-NOTE: The googlevoice python api used in this code had to be modified to compile. Good luck.
+NOTE: The googlevoice python API used in this code had to be modified to compile. Good luck. lib/googlevoice contains the modified version of the API.
